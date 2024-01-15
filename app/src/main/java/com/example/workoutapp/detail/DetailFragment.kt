@@ -35,7 +35,6 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
         val etWorkoutDuration = view.findViewById<TextInputEditText>(R.id.etWorkoutDuration)
         val button = view.findViewById<Button>(R.id.button)
 
-        // Setting initial values
         etWorkoutType.setText(workout.workoutType.toString())
         etWorkoutDate.setText(formatDate(workout.workoutDate))
         etWorkoutDuration.setText(workout.workoutDuration.toString())
