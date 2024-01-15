@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Workout App</string>
+    <string name="hint_workoutType">Workout Type</string>
+    <string name="hint_workoutDate">Workout Date</string>
+    <string name="workout_detail">Workout Details</string>
+    <string name="hint_workoutDuration">Duration in minutes</string>
+    <string name="save">Save</string>
+</resources>
